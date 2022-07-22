@@ -5,5 +5,10 @@ dotfiles managed by chezmoi.
 ```shell
 brew install chezmoi
 
-chezmoi init hhttps://github.com/takehaya/dotfiles.git
+chezmoi init https://github.com/takehaya/dotfiles.git
+
+chezmoi apply
 ```
+
+# tips
+- https://zenn.dev/ryo_kawamata/articles/introduce-chezmoi
