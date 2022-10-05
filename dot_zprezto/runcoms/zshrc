@@ -7,3 +7,6 @@ fi
 
 alias update_zshrc="chezmoi add .zprezto/runcoms/zshrc"
 
+export VISUAL=vim
+export EDITOR="$VISUAL"
+

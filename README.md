@@ -8,6 +8,8 @@ brew install chezmoi
 chezmoi init https://github.com/takehaya/dotfiles.git
 
 chezmoi apply
+
+./resymlinked.sh
 ```
 
 # tips
