@@ -3,10 +3,9 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
-
 alias update_zshrc="chezmoi add .zprezto/runcoms/zshrc"
 
 export VISUAL=vim
 export EDITOR="$VISUAL"
 
+eval "$(~/.local/bin/mise activate zsh)"

@@ -1,4 +1,4 @@
-#!bin/sh
+#!/bin/sh
 
 ln -nfs $HOME/.zprezto/runcoms/zshrc .zshrc
 ln -nfs $HOME/.zprezto/runcoms/zlogin .zlogin
