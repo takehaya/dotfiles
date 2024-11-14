@@ -9,6 +9,8 @@ chezmoi init git@github.com:takehaya/dotfiles.git
 
 chezmoi apply
 
+## これでSymlinkするユーザー名を上書きする（各環境のhomeの名前が異なることがあるため
+## readd するとこのユーザー上書きをGitにも反映できる
 ./resymlinked.sh
 
 ## Prezto update
@@ -33,6 +35,9 @@ update_zshrc
 
 # git ops case
 cd ~/.local/share/chezmoi
+# or 
+chezmoi cd
+
 git commit -m "update zsh"
 git push
 ```
